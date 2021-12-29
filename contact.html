@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/30c671eceb.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <title>Tekolio - Contact Page</title>
+    <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container-fluid">
+        <!--NAVBAR-->
+    <div class="row" id="about-hero">
+        <nav class="navbar navbar-expand-md bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Tekolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto text-center">
+                    <a class="nav-link" href="about.html">About Us</a>
+                    <a class="nav-link" href="features.html">Features</a>
+                    <a class="nav-link" href="studio.html">Studio</a>  
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="col-md-12 col-sm-12 text-center" id="about-hero-text">
+              <h1 class="h1b">
+                Contact Us
+              </h1>
+          </div>
+    </div>
+    <!--BASIC INFO-->
+    <div class="row" id="basic">
+      <div class="col-md-1 col-sm-1"></div>
+        <div class="col-md-4 col-sm-4 d-flex" id="basic-mail">
+            <i class="fas fa-envelope-open"></i>
+            <a class="basic-mail" href = "mailto: hello@tekoliocom" target="_blank">
+              <div style="color: rgba(25, 51, 59, 0.952);font-weight: 600;">Mail us at ::</div>
+              hello@Tekolio.com
+            </a>
+        </div>
+        <div class="col-md-2 col-sm-2"></div>
+        <div class="col-md-4 col-sm-4 d-flex" id="basic-phone">
+            <i class="fab fa-whatsapp"></i>
+            <div class="phone">
+              <span style="color: rgba(25, 51, 59, 0.952);font-weight: 600;">Contact us ::</span>
+              <br>
+              <a href="https://api.whatsapp.com/send?phone=918791600151">+91-954-824-2539</a>
+            </div>
+        </div>
+        <div class="col-md-1 col-sm-1"></div>
+        <div class="w-100 py-3"></div>
+        <div class="col-md-4 col-sm-4"></div>
+        <div class="col-md-4 col-md-4" id="basic-form">
+          <form id="myForm">
+            <div class="form-floating">
+                <input type="text" id="floatingInput1" class="form-control" name="name" placeholder="David"  required>
+                <label for="floatingInput1">Name</label>
+              </div>
+            <div class="form-floating">
+                <input type="text" id="floatingNumber" class="form-control" name="phone" placeholder="phone number"  pattern="[7-9][0-9]{9}" required>
+                <label for="floatingNumber">Phone Number</label>
+              </div>
+              <div id="phoneValid">
+                  <small>Entered phone number should be 10. <b>Avoid '-'</b></small>
+              </div>
+              <div class="form-floating">
+                <input type="email" id="floatingInput" class="form-control" name="email" placeholder="example@gmail.com" patten="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$ " required>
+                <label for="floatingInput">Email ID</label>
+              </div>
+              <input type="submit" id="button1" value="Get in Touch">
+        </form>
+        </div>
+        <div class="col-md-4 col-sm-4"></div>
+    </div>
+    <!--WORKFLOW-->
+    <div class="row py-5" id="workflow">
+      <div class="col-md-12 col-sm-12 py-3 text-center" id="text">Our Work Flow</div>
+      <div class="col-md-12 col-sm-12 px-5 text-center h3a">
+        The thing that makes anyone successful is the ability to tackle work in the correct order. 
+        <br>
+        Tekolio tackles the work by dividing it and dealing with it one at a time that also includes the client-side of dealing.
+      </div>
+      <div class="w-100 py-2"></div>
+      <div class="col-md-12 col-sm-12 text-center" id="workflow-img">
+        <img src="workflow.png" alt="workflow" class="workflow-img1">
+      </div>
+      <div class="col-md-12 col-sm-12 workflow">
+        <div class="workflow-img text-center">
+          <img src="contact.webp" alt="contact" id="workflow-img4">
+        </div>
+        <div class="workflow-text">
+          <div class="heading py-3">
+            Step-I - Contact
+          </div>
+          Many people are afraid of sharing their ideas with companies or are just afraid to take the first step. Tekolio offers you many platforms to come and speak your mind, and it's up to us to make it happen. 
+          <br>
+          We are here to turn your imagination into reality.
+        </div>
+        </div>
+        <div class="col-md-12 col-sm-12 workflow">
+        <div class="workflow-text">
+          <div class="heading py-3">
+            Step-II - Meeting Time
+          </div>
+          Discussion is one of the most crucial steps as through this you can exactly tell your requirements and will work according to them.
+        </div>
+        <div class="workflow-img text-center pt-4">
+          <img src="meeting.webp" alt="meeting" id="workflow-img1">
+        </div>
+        </div>
+        <div class="col-md-12 col-sm-12 workflow">
+        <div class="workflow-img text-center">
+          <img src="content.webp" alt="content" id="workflow-img2">
+        </div>
+        <div class="workflow-text">
+          <div class="heading py-3">
+           Step-III - Content Collection
+          </div>
+          We are very specific with the content as it is one of the key factors that will describe the customers about the website, business and type of work being offered. We will collect any type of data that you have and some wxtra through our discussion and with the help of both, the website will be created.
+        </div>
+        </div>
+        <div class="col-md-12 col-sm-12 workflow">
+        <div class="workflow-text">
+          <div class="heading py-3">
+           Step-IV - Analysis And Planning
+          </div>
+          At this point, your work is over, and its time for our technical team to handle the rest of the work. According to the data collected, a strategy will be made for each section having its deadline.
+        </div>
+      <div class="workflow-img text-center">
+        <img src="analyse.webp" alt="analyse" id="workflow-img1">
+      </div>
+       </div>
+       <div class="col-md-12 col-sm-12 workflow">
+         <div class="workflow-img text-center">
+          <img src="responsive.png" alt="responsive" id="workflow-img3">
+         </div>
+         <div class="workflow-text">
+          <div class="heading py-3">
+            Step-V - Design And Development
+          </div>
+         There are different departments for both Development and Designing so that the work can be completed in time. Now it will be checked by both developers and designers before it goes for testing to our quality and responsiveness tests.
+         </div>
+       </div>
+       <div class="col-md-12 col-sm-12 workflow">
+        <div class="workflow-text">
+          <div class="heading py-3">
+            Step-VI - Quality Check
+          </div>
+         This is our first and last testing area as we are confident that any type of mistake will be identified and then rectified as we want to give our clients our best work we can present.
+        </div>
+        <div class="workflow-img text-center">
+          <img src="quality.png" alt="quality" id="workflow-img5">
+        </div>
+        </div>
+        <div class="col-md-12 col-sm-12 workflow">
+          <div class="workflow-img text-center">
+            <img src="review.jpg" alt="review" id="workflow-img6">
+          </div>  
+        <div class="workflow-text">
+          <div class="heading py-3">
+           Step-VII - Review Time
+          </div>
+         In this step client sees the site and reviews it and if any change or addition is required, it can easily be done as the website is still in its development phase.
+        </div>
+        </div>
+        <div class="col-md-12 col-sm-12 workflow">
+        <div class="workflow-text">
+          <div class="heading py-3">
+           Step-VIII - Revision Time
+          </div>
+         Now its our turn to go through the website once more after the required changes before giving the final product to the client.
+        </div>
+        <div class="workflow-img text-center">
+          <img src="work.webp" alt="rivision" id="workflow-img6">
+        </div>
+        </div>
+        <div class="col-md-12 col-sm-12 workflow">
+          <div class="workflow-img text-center">
+            <img src="banner.webp" alt="banner" id="workflow-img1">
+          </div>    
+        <div class="workflow-text">
+          <div class="heading py-3">
+            Step-IX - Project Delivery
+          </div>
+         Its time to give the client his website which has cleared all our tests and now is ready to see the outside world and start working in place of you.
+        </div>
+       </div>
+    </div>
+    <!--FOOTER-->
+    <div class="row py-4" id="footer">
+      <div class="col-md-8 col-sm-8 footbar">Tekolio</div>
+      <div class="col-md-4 col-sm-4 text-center">
+        <button id="btn" class="mt-4">
+          <a href="contact.html" id="btn1">Get a Quote</a>
+        </button>
+      </div>  
+      <div class="w-100 py-3"></div>
+      <div class="col-md-4 col-sm-3" id="f4">
+        We at <b>Tekolio</b> have a habit of fulfilling everyone's wishes of having a website that can give you a boost in sales and will be unique which will help you stand out more than your competitors.
+      </div>
+      <div class="col-md-2 col-sm-3" id="f1">
+        <div class="h3"><b><u>Navigation</u></b></div>
+        <a href="index.html" id="home">Home</a>
+        <a href="about.html" id="home">About Us</a>
+        <a href="contact.html" id="home"> Our Pricing</a>
+        <a href="gallery.html" id="home"> Our Studio</a>
+        <a href="contact.html" id="home">Work Cycle</a>
+      </div>   
+      <div class="col-md-2 col-sm-3" id="f2">
+        <div class="h3"><b><u>Categories</u></b></div>
+        <a href="features.html" id="home">Touts & Travels</a>
+        <a href="features.html" id="home">Food</a>
+        <a href="features.html" id="home">Health</a>
+        <a href="features.html" id="home">Consultancy</a>
+        <a href="features.html" id="home">See all</a>
+      </div>   
+      <div class="col-md-2 col-sm-2 text-center" id="f3">
+        <div class="h3"><b><u>Visit</u></b></div>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-linkedin"></i>
+        <div class="w-100"></div>
+        <i class="fab fa-whatsapp-square"></i>
+        <i class="fas fa-envelope"></i>
+      </div>
+      <div class="w-100 py-3"></div>
+      <div class="col-md-12 col-sm-12 text-center" id="f5">
+        <p class="p"> Copyright <span style="text-decoration: underline solid white;">&#169; Tekolio 2021</span> All rights reserved</p>
+      </div>
+    </div>
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>
